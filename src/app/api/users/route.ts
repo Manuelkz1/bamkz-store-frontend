@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { createClient } from '@/lib/supabaseClient';
+import { createClient } from '@/lib/supabase/server';
 
 // IMPORTANT: Accessing the auth.users table directly via the client library is typically
 // restricted for security reasons. You usually manage users via Supabase Auth functions
