@@ -2,7 +2,7 @@
 'use client';
 
 import { useState, ChangeEvent } from 'react';
-import { createClient } from '@/lib/supabase/client'; // Assuming you have a client-side Supabase client setup
+import { createClient } from '@/lib/supabase/client';
 
 interface ImageUploadProps {
   bucketName: string;
